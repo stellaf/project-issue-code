@@ -8,9 +8,7 @@
             <field name="code">project.issue</field>
             <field name="prefix">IS</field>
             <field name="padding">4</field>
-            <field name="implementation">nogap</field>
         </record>
-
     </data>
 </openerp>
 
