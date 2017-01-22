@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # © 2016 Michael Viriyananda
-# © 2017 Stella Fredö, adapt it to v9
+# © 2017 Stella Fredö, adapt it to v10
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
     "name": "Project Issue Code",
-    "version": "9.0.1.0.0",
+    "version": "10.0.1.0.0",
     'author': 'Michael Viriyananda, Stella Fredö',
     "category": "Project Management",
     'summary': 'Adding Field Code For Project Issue',
@@ -19,6 +19,4 @@
         "views/project_issue_view.xml",
     ],
     "installable": True,
-    "pre_init_hook": "create_code_equal_to_id",
-    "post_init_hook": "assign_old_sequences",
 }

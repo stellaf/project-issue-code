@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
-
-        <!-- Sequences for products -->
         <record id="project_issue_sequence" model="ir.sequence">
             <field name="name">Issue</field>
             <field name="code">project.issue</field>
@@ -10,5 +8,5 @@
             <field name="padding">4</field>
         </record>
     </data>
-</openerp>
+</odoo>
 
